@@ -51,6 +51,7 @@ public class DialogueManager : MonoBehaviour
         Cursor.visible = !isEnable;
     }
 
+    [System.Obsolete]
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
         actor = dialogueObject.Actors;
